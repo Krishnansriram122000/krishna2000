@@ -8,7 +8,15 @@
   <style>
   	.f{
   		font-family: "Arial Rounded MT";
-  		font-size: 38px;
+  		font-size: 41px;
+  	}
+  	b{
+  		font-family: jokerman;
+  	}
+  	@media and (max-width: 576px){
+  		b{
+  			font-family: Arial Rounded MT;
+  		}
   	}
   	.krish123{
   		margin:40px;
@@ -19,14 +27,14 @@
   </style>
   </head>
  <body>
- 	<div style="background-color: red;"
+ 	<div class="container-fluid" style="background: url(bgimage.jpg);background-position: center;background-repeat: no-repeat;">
  	<h1><br><br>
- 	<font color="#73101d"><p class="f" align="center">SKILL SET OF KRISHNAN SRIRAM</p></font>
+ 	<b><p class="f"  align="center">SKILL SET OF KRISHNAN SRIRAM</p></b>
  	</h1>
  	<br><br>
- 	<p class="container-fluid">
+ 	<p class="container-fluid ">
  		<div class="row">
- 			<div class="col-sm-3 krish123">
+ 			<div class="col-sm-4 krish123 container-fluid">
  				<font color="white"><h1>Backend Programming</h1></font>
 		 		<b>C/C++</b><br>
 		 		<progress value=88 max=100>
@@ -36,9 +44,53 @@
 		 		</progress><br>
 		 		<b>Python</b><br>
 		 		<progress value=81 max=100>
+		 		</progress><br>
+		 		<b>PHP</b><br>
+		 		<progress value=76 max=100>
 		 		</progress><br><br>
 		 	</div>
-		 </div>
+		 	<div class="col-sm-4 krish123 container-fluid">
+ 				<font color="white"><h1>Web Development</h1></font>
+		 		<b>HTML</b><br>
+		 		<progress value=88 max=100>
+		 		</progress><br>
+		 		<b>CSS</b><br>
+		 		<progress value=90 max=100>
+		 		</progress><br>
+		 		<b>JAVASCRIPT</b><br>
+		 		<progress value=81 max=100>
+		 		</progress><br><br>
+		 	</div>
+		 	<div class="col-sm-4 krish123 container-fluid">
+ 				<font color="white"><h1>DATABASE</h1></font>
+		 		<b>MYSQL</b><br>
+		 		<progress value=88 max=100>
+		 		</progress><br>
+		 		<b>MONGODB</b><br>
+		 		<progress value=90 max=100>
+		 		</progress><br>
+		 		<br>
+		 	</div>
+		 	<div class="col-sm-4 krish123 container-fluid">
+ 				<font color="white"><h1>App Development</h1></font>
+		 		<b>Andriod studio(Java)</b><br>
+		 		<progress value=88 max=100>
+		 		</progress><br>
+				<br>
+		 	</div>
+		 	<div class="col-sm-4 krish123">
+ 				<font color="white"><h1>Machine learning</h1></font>
+		 		<b>Image Processing</b><br>
+		 		<progress value=88 max=100>
+		 		</progress><br>
+		 		<b>Natural Language Processing</b><br>
+		 		<progress value=62 max=100>
+		 		</progress><br>
+		 		<b>Deep Learning</b><br>
+		 		<progress value=81 max=100>
+		 		</progress><br><br>
+		 	</div><br><br>
+		 </div><br><br>
 	</p>
 </div>
 </body>
